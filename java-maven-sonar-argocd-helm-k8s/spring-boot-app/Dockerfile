@@ -7,4 +7,4 @@ WORKDIR /opt/app
 
 COPY ${artifact} app.jar
 
-ENTRYPOINT ["java","-jar","app.jar"
+ENTRYPOINT ["java","-jar","app.jar"]
